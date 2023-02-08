@@ -1,0 +1,87 @@
+* body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.material-symbols-outlined{
+    color:purple
+}
+hr{
+    color:purple
+}
+
+body{
+    background-color:#E6E6FA;
+}
+
+main{
+    margin:1rem;
+
+    display:grid;
+    grid-template-columns:33% 1fr;
+    grid-gap:1rem;
+    filter:drop-shadow(0 0 0.4rem black
+    )
+}
+
+.infomation, .Education{
+    padding:1rem;
+    line-height: 2;
+}
+
+.left,.Cover.Experience{
+    background-color: white;
+    text-align: center;
+}
+
+.left-image img{
+    width: 100%;
+}
+
+img{
+    width:500px;
+    height:500px;
+    object-fit:relative;
+}
+.left-image h2{
+    position: absolute;
+    bottom:230px;
+    left:1rem;
+     color:#51414F;
+}
+
+.right,h2,ul{
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+.Cover,.Experience{
+    line-height: 2;
+    padding: 2rem;
+}
+
+.Cover{
+    margin-top: 2rem;
+    background-color: white;
+}
+
+.Cover ul{
+    margin: 2rem 0;
+}
+
+
+.Experience{
+    margin: 2rem 0;
+    background-color: white;
+}
+
+footer{
+    background-color:#5141f;
+    padding:2rem 0;
+    text-align: center;
+    
+}
+
